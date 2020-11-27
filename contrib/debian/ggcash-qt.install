@@ -1,0 +1,6 @@
+usr/local/bin/ggcash-qt usr/bin
+share/pixmaps/ggcash32.xpm usr/share/pixmaps
+share/pixmaps/ggcash16.xpm usr/share/pixmaps
+share/pixmaps/ggcash128.png usr/share/pixmaps
+debian/ggcash-qt.desktop usr/share/applications
+debian/ggcash-qt.protocol usr/share/kde4/services/

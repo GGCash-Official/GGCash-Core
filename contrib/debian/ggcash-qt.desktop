@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=GGCash Core
+Comment=GGCash P2P Cryptocurrency
+Comment[fr]=GGCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=GGCash, eşten eşe kriptografik sanal para birimi
+Exec=ggcash-qt %u
+Terminal=false
+Type=Application
+Icon=ggcash128
+MimeType=x-scheme-handler/ggcash;
+Categories=Office;Finance;
+StartupWMClass=GGCash-qt

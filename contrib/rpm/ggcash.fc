@@ -1,0 +1,8 @@
+/usr/bin/ggcash-cli		--	gen_context(system_u:object_r:ggcash_exec_t,s0)
+/usr/sbin/ggcashd		--	gen_context(system_u:object_r:ggcash_exec_t,s0)
+/usr/lib(64)?/ggcash/ggcashd		--	gen_context(system_u:object_r:ggcash_exec_t,s0)
+
+/etc/ggcash(/.*)?		gen_context(system_u:object_r:ggcash_conf_t,s0)
+/var/lib/ggcash(/.*)?		gen_context(system_u:object_r:ggcash_var_lib_t,s0)
+
+(/var)?/run/ggcashd(/.*)?   gen_context(system_u:object_r:ggcash_var_run_t,s0)

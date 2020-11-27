@@ -1,0 +1,3 @@
+usr/local/bin/ggcashd usr/bin
+usr/local/bin/ggcash-cli usr/bin
+debian/examples/ggcash.conf etc/ggcash
