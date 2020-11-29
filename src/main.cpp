@@ -2070,31 +2070,31 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
             return 0;
     }
 	
-	// Phase 1 . 87% para MN
+	// Phase 1 . 72% para MN
     if (nHeight <= Params().LAST_POW_BLOCK() && nHeight > 0) {
      ret = blockValue * 0.72;
     }
-	// Phase 2 . 73% para MN
+	// Phase 2 . 70% para MN
     else if (nHeight <= 450000 && nHeight > Params().LAST_POW_BLOCK()) {
      ret = blockValue * 0.70;
     }
-	// Phase 3 . 71% para MN
+	// Phase 3 . 68% para MN
 	else if (nHeight <= 900000 && nHeight > 450000) {
      ret = blockValue * 0.68;
     }
-	// Phase 4 . 69% para MN
+	// Phase 4 . 66% para MN
 	else if (nHeight <= 1800000 && nHeight > 900000) {
      ret = blockValue * 0.66;
     }
-	// Phase 5 . 67% para MN
+	// Phase 5 . 64% para MN
 	else if (nHeight <= 2250000 && nHeight > 1800000) {
      ret = blockValue * 0.64;
     }
-	// Phase 6 . 65% para MN
+	// Phase 6 . 62% para MN
     else if (nHeight <= 2700000 && nHeight > 2250000) {
      ret = blockValue * 0.62;
     }
-	// Phase 7 . 62% para MN
+	// Phase 7 . 60% para MN
 	else if (nHeight <= 3600000 && nHeight > 2700000) {
      ret = blockValue * 0.60;
     }
