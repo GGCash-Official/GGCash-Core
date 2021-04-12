@@ -192,7 +192,7 @@ Example output<br>
   "txhash": "506a242ccbfd2555bcd9cff5f4041752c911f39cb2905acc83ccfe0cf8808df9",
   "outputidx": 1,
   "netaddr": "136.144.171.201:9999",
-  "addr": "TDC99hZmSmYEcBu4WcxA2TCT6KBqHB6Hos",
+  "addr": "GDC99hZmSmYEcBu4WcxA2TCT6KBqHB6Hos",
   "status": 4,
   "message": "Masternode successfully started"
 }
